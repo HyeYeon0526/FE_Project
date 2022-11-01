@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="background-color:mistyrose">
+        <h1>이거는 글씨 크기를 조절 가능한 h1태그</h1>
+        <h2>h2태그로 만든 문장의 크기는 이만해요</h2>
+        <h3>h3태그로 만든 문장의 크기는 이만해요</h3>
+    </div>
+
+    <div style="background-color:lightsteelblue">
+        <p>p태그로 만든 문장의 크기는 이만해요</p>
+        <p>문장은 br태그로 줄바꿈<br>을 할 수도 있고 <b>b태그로 글자를 굵게 표시할 수도 있어여</b></p>
+        <i> i태그는 italic이라는 뜻이고 글자를 기울여서 표시할 수 있음</i>
+    </div>
+
+    <div style="background-color:lavender">
+        <p>a태그를 사용하면 -> <a href="https://www.naver.com/">이거처럼 링크를 걸 수 있어요</a>
+        </p>
+        <p>원하면 링크를 여러 방식으로도 열 수 있어요<br>
+            <a href="https://www.naver.com" target="_blank"> target="_blank" 하면 새 탭으로</a><br>
+            <a href="https://www.naver.com/" target="_parent"> target="_parent" 하면 부모 페이지로</a><br>
+            <a href="https://www.naver.com/" target="_self">target="_self" 하면 현재 페이지로</a><br>
+            <a href="https://www.naver.com/" target="_top">target="_top" 하면 최상위 페이지로</a><br>
+        </p>
+    </div>
+    
+    <div style="background-color:thistle">
+        <img src="http://source.unsplash.com/collection/3/300x300" width="300" height="250">
+        <p>img 태그를 이용하면 이미지를 삽입할 수 있어요. 크기 조정도 가능!</p>
+        <img src="" width="300" height="250">
+        <p>img 태그에 아무것도 삽입하지 않으면 이런식으로 출력..</p>
+    </div>
+
+    <div style="background-color:pink">
+        <table>table안에 글씨를 쓰면?
+            <tr>tr태그 안 td태그 밖에 글씨를 쓰면?
+                <td>td태그 안에 글씨를 쓰면?</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>여기는 두번째 tr태그의 첫번째 td태그 안</td>
+                <td>여기는 두번째 tr태그의 두번째 td태그 안</td>
+            </tr>
+            <tr>
+                <td>1. 근데 테이블 만드는 건</td>
+                <td>2. div태그랑 css</td>
+                <td>3. 를 사용하는게 </td>
+                <td>4. 더 최신 방법이래요</td>
+            </tr>
+        </table>
+    </div>
+
+    <div style="width: 500px; height: 15vh; background-color:darkseagreen">
+        div태그는 레이아웃을 나누는데 사용할 수 있어요<br>
+        특별한 기능을 가진 건 아니고 레이아웃을 설계하는데 쓰여요<br>
+        연결한 css를 통해 속성을 지정할 수도 있고<br>
+        style을 태그 안에 삽입해서 속성을 지정할 수도 있어요<br>
+        현재 이 div 태그의 속성은 style="width: 500px; height: 15vh; background-color:darkseagreen"
+    </div>
+
+    <span style="background-color:sandybrown">
+        여기는 span태그의 내부에 쓰인 글자들입니다 <br> 줄바꿈 되나요?
+        <br>넵 br태그로는 줄바꿈됩니다.
+    </span>
+    <span style="background-color:silver">
+        하지만 span태그를 연달아 두개 사용한다면?<br>
+        div와는 다르게 자동으로 줄바꿈이 안되네요~
+        <br> 그 이유는 세부 속성이 div는 block이지만 span은 inline이기 때문입니다
+    </span>
+
+    <ul style="background-color:gainsboro">
+        <li>1. ul로 감싼 li태그들의 내용입니다</li>
+        <li>2. ul로 감싼 li태그들의 내용입니다</li>
+        <li>3. ul로 감싼 li태그들의 내용입니다</li>
+        <li>4. ul로 감싼 li태그들의 내용입니다</li>
+    </ul>
+
+    <ol style="background-color:dimgray">
+        <li>1. ul로 감싼 li태그들의 내용입니다</li>
+        <li>2. ul로 감싼 li태그들의 내용입니다</li>
+        <li>3. ul로 감싼 li태그들의 내용입니다</li>
+        <li>4. ul로 감싼 li태그들의 내용입니다</li>
+        <li><li>li안에 li를 넣으면? 오오 그냥 새 태그가 되네요</li></li>
+        <li>이 안에 새 목록을 작성해보겠습니다아
+            <ol>여기다가 글씨를 쓰면? 오~ 약간 제목처럼 쓸 수 있겠어용
+                <li>li>ol>li태그를 한다면?</li>
+                <li>오오 새 목록이 안에 생성!</li>
+            </ol>
+        </li>
+    </ol>
+
+    <div>
+        <strong>텍스트 입력받기(strong으로 입력받으면 줄바꿈이 안되네여)</strong>
+        <input type="text" name="name" value="아이디 입력">
+
+        <p>라디오버튼(p태그로 입력받으면 줄바꿈이 자동으로 되네여)</p>
+        <input type="radio" name="gender" value="F"> 여자
+        <input type="radio" name="gender" value="M"> 남자
+        <input type="radio" name="color" value="Red"> 빨강, input의 속성인 name은 줄바꿈과 연관이 없네요
+        <input type="radio" name="color" value="blue"> 파랑
+
+        <b>b태그 다음에 인풋이 온다면?</b>
+        <input type="button" value="love"> 가나다라
+        <strong>? 인풋이랑 b태그랑은 줄바꿈이 안되네요 그렇다면 strong은? 오 스트롱도 줄바꿈이 안되네요..</strong>
+        <p>p태그는 줄바꿈 될 것인가?오 되네요</p>
+
+        <input type="date" name="date" id="">이건 무슨 버튼? 헐 대박 신기해~ <br>
+        <input type="color" name="color" id=""> 이건 멍미 헐 이게 더 신기해<br>
+        <input type="email" name="e-mail" id=""> 이건 또 뭥 이건 별로 안신기헤 <br>
+        <input type="file"> 파일 업로드?! 허얼 짱신기하다 이건
+    </div>
+</body>
+</html>
